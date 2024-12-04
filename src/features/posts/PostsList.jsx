@@ -20,6 +20,7 @@ const PostsList = () => {
 
   const handleDeleteClick = (id) => {
     dispatch(deletePost(id));
+    toast.success("Post deleted successfully");
   };
   return (
     <>
